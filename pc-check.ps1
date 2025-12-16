@@ -5,8 +5,8 @@
 # -----------------------------
 # File paths
 # -----------------------------
-$systemReport = "C:\pc_full_report.txt"
-$batteryReport = "C:\battery_report.html"
+$systemReport = "pc_full_report.txt"
+$batteryReport = "battery_report.html"
 
 # Remove old reports if exist
 if (Test-Path $systemReport) { Remove-Item $systemReport }
